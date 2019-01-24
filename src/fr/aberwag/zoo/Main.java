@@ -8,6 +8,7 @@ import fr.aberwag.zoo.animal.animalsautant.Chat;
 import fr.aberwag.zoo.animal.animalsautant.Cheval;
 import fr.aberwag.zoo.animal.animalsautant.Chien;
 import fr.aberwag.zoo.animal.animalvolant.Aigle;
+import fr.aberwag.zoo.animal.animalvolant.Pigeon;
 
 public class Main {
 
@@ -52,7 +53,14 @@ public class Main {
 	System.out.println("Animal: " + donLino.getNom());
 	donLino.manger();
 	donLino.nager();
-	
+	 Pigeon vaillant = 
+			 new Pigeon("Vaillant", "Pigeon voyageur", 1, 1, "Bleu", false);
+	 
+	 vaillant.manger();
+	 vaillant.dormir();
+	 vaillant.courir();
+	 vaillant.sauter();
+	 vaillant.voler();
 	
 	}
 
